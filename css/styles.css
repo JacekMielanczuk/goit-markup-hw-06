@@ -205,6 +205,22 @@ link:active {
   background-color: #ffffff;
   margin-left: 93%;
 }
+.modal-form {
+  display: flex;
+  position: relative;
+}
+
+.form-title {
+  display: flex;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-align: center;
+  justify-content: center;
+
+  color: #212121;
+}
 
 /*CSSy dla Nasze atuty*/
 .no-padding {
