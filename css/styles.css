@@ -169,6 +169,7 @@ link:active {
   flex-direction: column;
   align-items: center;
 }
+/* CSSy dla Modala */
 .backdrop {
   position: fixed;
   display: flex;
