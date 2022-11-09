@@ -205,10 +205,6 @@ link:active {
   background-color: #ffffff;
   margin-left: 93%;
 }
-.modal-form {
-  display: flex;
-  position: relative;
-}
 
 .form-title {
   display: flex;
@@ -220,6 +216,44 @@ link:active {
   justify-content: center;
   margin-top: 2px;
   color: #212121;
+}
+.modal-content {
+  display: flex;
+  justify-content: center;
+}
+.main-form {
+  display: flex;
+  position: relative;
+}
+.fieldset {
+  display: flex;
+  position: relative;
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-block: 7px;
+}
+.label {
+  position: absolute;
+  top: -22px;
+  left: 0px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+.icon {
+  width: 12px;
+  height: 12px;
+  text-align: center;
+  margin-block: 5px;
+  margin-right: 12px;
+}
+.input {
+  border: 0;
+  outline: 0;
 }
 
 /*CSSy dla Nasze atuty*/
