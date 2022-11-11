@@ -244,7 +244,15 @@ link:active {
 .fieldset:has(input:focus) {
   border-color: #2196f3;
 }
-
+.fieldset:has(input:focus) .icon-name {
+  fill: #2196f3;
+}
+.fieldset:has(input:focus) .icon-tel {
+  fill: #2196f3;
+}
+.fieldset:has(input:focus) .icon-mail {
+  fill: #2196f3;
+}
 .label {
   position: absolute;
   top: -18px;
@@ -261,13 +269,20 @@ link:active {
   text-align: center;
   margin-block: 5px;
   margin-right: 12px;
+  transition: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .icon-tel {
   width: 13px;
   height: 13px;
   text-align: center;
   margin-block: 5px;
   margin-right: 12px;
+  transition: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-mail {
   width: 15px;
@@ -275,6 +290,9 @@ link:active {
   text-align: center;
   margin-block: 5px;
   margin-right: 12px;
+  transition: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input {
   border: 0;
