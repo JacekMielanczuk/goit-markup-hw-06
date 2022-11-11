@@ -270,6 +270,7 @@ link:active {
 .input {
   border: 0;
   outline: 0;
+  width: 390px;
 }
 
 /*CSSy dla Nasze atuty*/
