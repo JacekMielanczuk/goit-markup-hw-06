@@ -246,8 +246,22 @@ link:active {
   letter-spacing: 0.01em;
   color: #757575;
 }
-.icon {
+.icon-name {
   width: 12px;
+  height: 12px;
+  text-align: center;
+  margin-block: 5px;
+  margin-right: 12px;
+}
+.icon-tel {
+  width: 13px;
+  height: 13px;
+  text-align: center;
+  margin-block: 5px;
+  margin-right: 12px;
+}
+.icon-mail {
+  width: 15px;
   height: 12px;
   text-align: center;
   margin-block: 5px;
