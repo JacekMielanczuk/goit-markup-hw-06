@@ -272,6 +272,31 @@ link:active {
   outline: 0;
   width: 390px;
 }
+.fieldset-two {
+  display: flex;
+  position: relative;
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-block: 7px;
+  margin-bottom: 28px;
+  height: 120px;
+}
+.textarea {
+  width: 416px;
+  height: 96px;
+  background-color: transparent;
+  border: 0;
+  resize: none;
+  outline: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+
+  color: rgba(117, 117, 117, 0.5);
+}
 
 /*CSSy dla Nasze atuty*/
 .no-padding {
