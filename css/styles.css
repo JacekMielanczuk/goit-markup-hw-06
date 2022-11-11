@@ -150,6 +150,7 @@ link:active {
   border-radius: 4px;
   width: 200px;
   height: 50px;
+  border: 0;
 }
 .title-background {
   background-color: #2f303a;
