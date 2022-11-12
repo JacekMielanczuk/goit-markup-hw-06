@@ -642,6 +642,31 @@ textarea::placeholder {
   align-items: center;
   justify-content: center;
 }
+.newsletter {
+  display: flex;
+  align-items: center;
+}
+.sign-in {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0;
+}
+.icon-send {
+  width: 24px;
+  height: 24px;
+}
 /*CSSy dla Portfolio*/
 .filters-nav {
   padding-top: 94px;
