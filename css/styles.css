@@ -602,7 +602,7 @@ textarea::placeholder {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--title-color);
-  padding-left: 40px;
+
   padding-bottom: 20px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -615,6 +615,7 @@ textarea::placeholder {
   transition: fill background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  padding-left: 0;
 }
 .social-links-footer {
   width: 44px;
@@ -667,6 +668,8 @@ textarea::placeholder {
 .fieldset-three {
   display: flex;
   align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
   width: 358px;
   height: 50px;
   padding-top: 10px;
@@ -713,6 +716,8 @@ textarea::placeholder {
   border: 0;
   cursor: pointer;
   margin-left: 12px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .icon-send {
   width: 24px;
