@@ -341,6 +341,7 @@ textarea::placeholder {
 .legal-span {
   color: rgba(33, 150, 243, 1);
   text-decoration: underline;
+  text-decoration-skip-ink: none;
 }
 
 .submit {
