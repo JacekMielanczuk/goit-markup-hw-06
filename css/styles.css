@@ -359,6 +359,8 @@ textarea::placeholder {
   top: 4px;
   opacity: 1;
   transition: opacity;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .check {
   width: 17px;
@@ -368,6 +370,8 @@ textarea::placeholder {
   top: 3px;
   opacity: 0;
   transition: opacity;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .legal input:checked ~ .basic {
