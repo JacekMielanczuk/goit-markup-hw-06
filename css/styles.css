@@ -339,6 +339,7 @@ textarea::placeholder {
   letter-spacing: 0.03em;
   color: #757575;
   cursor: pointer;
+  padding-left: 6px;
 }
 .legal input {
   cursor: pointer;
@@ -355,7 +356,7 @@ textarea::placeholder {
   height: 15px;
   position: absolute;
   left: -2px;
-  top: 2px;
+  top: 4px;
 }
 
 .submit {
