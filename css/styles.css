@@ -331,17 +331,31 @@ textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
 .legal {
+  position: relative;
   text-align: center;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+  cursor: pointer;
 }
+.legal input {
+  cursor: pointer;
+  opacity: 0;
+}
+
 .legal-span {
   color: rgba(33, 150, 243, 1);
   text-decoration: underline;
   text-decoration-skip-ink: none;
+}
+.basic {
+  width: 16px;
+  height: 15px;
+  position: absolute;
+  left: -2px;
+  top: 2px;
 }
 
 .submit {
