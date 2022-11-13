@@ -357,8 +357,25 @@ textarea::placeholder {
   position: absolute;
   left: -2px;
   top: 4px;
+  opacity: 1;
+  transition: opacity;
+}
+.check {
+  width: 17px;
+  height: 16px;
+  position: absolute;
+  left: -3px;
+  top: 3px;
+  opacity: 0;
+  transition: opacity;
 }
 
+.legal input:checked ~ .basic {
+  opacity: 0;
+}
+.legal input:checked ~ .check {
+  opacity: 1;
+}
 .submit {
   font-weight: 700;
   font-size: 16px;
